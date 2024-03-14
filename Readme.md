@@ -1,5 +1,5 @@
-# Challenge React30 - Project 2: Click App
-Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatre59.medium.com/react-30-project-2-building-a-clicker-app-with-react-js-79831b1ae037)
+# Formulário ccom Gerador de Senhas Seguras
+Essa é uma solução do desafio proposto pela comunidade [ Hora de Codar: ](https://horadecodar.com.br/)
 
 
 ### Screenshot
@@ -8,8 +8,8 @@ Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatr
 
 ### Links
 
-- Solução URL: [Repository](https://github.com/aslinsjr/clicker-app)
-- Live Site URL: [Live Page](https://clicker-app-zeta.vercel.app/)
+- Solução URL: [Repository](https://github.com/aslinsjr/gerador-de-senhas)
+- Live Site URL: [Live Page](https://aslinsjr.github.io/gerador-de-senhas/)
 
 ### Desenvolvido com
 
