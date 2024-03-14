@@ -253,6 +253,7 @@ button:hover {
     .main-container {
         flex-direction: column;
         width: 375px;
+        height: auto;
         box-shadow: 1px 1px 10rem 1px #242424;
     }
 
@@ -268,11 +269,12 @@ button:hover {
 
     .form-container {
         width: 100%;
-        margin-top: -10rem;
+        margin-top: -2rem;
         border-radius: 0 0 1rem 1rem;
     }
 
     input[type="submit"] {
-        bottom: -1rem;
+        position: initial;
+        margin-top: 1rem;
     }
 }
