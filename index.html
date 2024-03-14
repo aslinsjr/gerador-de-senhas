@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <div class="banner-container">
+            <img src="img/photo-bg.jpg" alt="">
+            <h1 id="wellcome-text">Seja <br> bem-vindo</h1>
+        </div>
+        <div class="form-container">
+            <div class="form-controll">
+                <h2>Crie sua conta</h2>
+            <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                <label for="e-mail">E-mail</label>
+                <input type="text" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <details>
+                    <summary>Quer ajuda para criar uma senha segura? <span>Clique aqui!</span></summary>
+                    <div class="pass-generator-container">
+                        <div class="pass-options">
+                            <label for="pass-qnt" id="qnt-label">Quantidade de caracteres:</label>
+                            <input type="text" name="pass-qnt" id="pass-qnt" maxlength="2">
+                            <label for="pass-letters">Letras:</label>
+                            <input type="checkbox" name="pass-letters" id="pass-letters">
+                            <label for="pass-number">Números:</label>
+                            <input type="checkbox" name="pass-number" id="pass-number">
+                            <label for="pass-symbols">Símbolos:</label>
+                            <input type="checkbox" name="pass-symbols" id="pass-symbols">
+                        </div>
+                        <div class="password-show">
+                            <p id="password-generated"></p>
+                        </div>
+                        <div class="pass-controls">
+                            <button id="pass-generator-btn">Gerar senha</button>
+                            <button id="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </details>
+                <label for="confirm-password">Confirmação de Senha</label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme sua senha" >
+                <input type="submit" value="Cadastrar" id="submit-btn">
+            </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
